@@ -67,7 +67,7 @@ for i in range(len(instructions)):
         last_dollar = instruction.rfind("$")
         last_comma = instruction.rfind(",")
         imm = format(int(instruction[last_comma+2:last_dollar-1]), '#014b')[2:]
-        new_instruction = imm[5:11] + "_" + rs2 + "_" + rs1 + "_" + funct3 + "_" + imm[0:5] + "_" + opcode
+        new_instruction = imm[5:11][::-1] + "_" + rs2 + "_" + rs1 + "_" + funct3 + "_" + imm[0:5] + "_" + opcode
     elif words[0] == "addi" or words[0] == "sll":
         opcode = "0010011"
         if words[0] == "addi":
