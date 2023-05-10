@@ -1,0 +1,2 @@
+/* http://srecord.sourceforge.net/ */
+@00000000 BEEFBEEF BEEFBEEF BEEFBEEF BEEFBEEF BEEFBEEF 00000000

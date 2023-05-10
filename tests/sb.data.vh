@@ -1,0 +1,2 @@
+/* http://srecord.sourceforge.net/ */
+@00000000 EFEFEFEF EFEFEFEF 0000EFEF 00000000
