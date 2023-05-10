@@ -1,1 +1,0 @@
-/* http://srecord.sourceforge.net/ */

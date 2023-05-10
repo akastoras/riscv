@@ -1,2 +1,0 @@
-/* http://srecord.sourceforge.net/ */
-@00000000 FF000513 00100593 00B52023 FF5FF06F
